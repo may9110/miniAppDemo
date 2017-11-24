@@ -1,5 +1,6 @@
 Page({
   data: {
-    logs: []
+    a: 1,
+    b: 2
   }
 })

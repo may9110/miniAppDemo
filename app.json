@@ -1,16 +1,16 @@
 {
   "pages": [
+    "pages/share/share",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/share/share",
     "pages/docs/docs",
     "pages/more/more"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#000",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Demo",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#8d8d8d",

@@ -1,1 +1,17 @@
 /* pages/home/home.wxss */
+.tapdown {
+  background-color: red;
+  transition: all ease-in-out .3s;
+}
+.father1 {
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+}
+.square{
+  display: inline-block;
+}
+span{
+  display: inline;
+  
+}
