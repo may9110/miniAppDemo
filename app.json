@@ -1,15 +1,41 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/share/share",
     "pages/docs/docs",
     "pages/more/more"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8d8d8d",
+    "selectedColor": "#55BCF4",
+    "backgroundColor": "#fff",
+    "borderStyle": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/share/share",
+        "text": "分享",
+        "iconPath": "icons/icon_share1.png",
+        "selectedIconPath": "icons/icon_share2.png"
+      },
+      {
+        "pagePath": "pages/docs/docs",
+        "text": "文件",
+        "iconPath": "icons/icon_docs1.png",
+        "selectedIconPath": "icons/icon_docs2.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多",
+        "iconPath": "icons/icon_more1.png",
+        "selectedIconPath": "icons/icon_more2.png"
+      }
+    ]
   }
 }
